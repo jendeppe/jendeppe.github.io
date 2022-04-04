@@ -35,7 +35,6 @@ header {
     text-align: center;
     border: 1px solid #888888;
     box-shadow: 15px 15px 5px 0 #888888;
-    border-radius: 25px;  	
 }
 
 nav {
@@ -71,7 +70,7 @@ nav ul li a:hover {
     color: black;
     border-left: 2px solid;
     border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
+    background-image: DarkGreen; 
 }
 
 #main p {
@@ -117,7 +116,7 @@ footer {
     padding: 10px;
     background-color: DarkGreen;
     clear: both;
-    color: wheat;
+    color: DarkGreen;
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
