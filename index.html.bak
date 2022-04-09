@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Jen Deppe
+		Date: 03/28/2022
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<title>Deppe K9 Care</title>
+     <link href="css/styles.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+
+<a href="index.html"><img src="images/K9Carelogo.png" alt="K9 Care Logo"/></a>
+
+</header> 
+
+<div id = "wrapper">
+		 
+<nav> 
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "price.html">Prices</a></li>
+	  <li><a href = "Reviews.html">Reviews</a></li>
+	  <li><a href = "Contactus.html">Contact Us</a></li>
+	</ul>
+</nav> 
+	 
+<article id = "main"> 
+
+<h2>About Us</h2>
+	<p>First opening our doors in 2022, we are dedicated family-owned business here for your pet boarding needs. Whether it be doggy day care for busy working pet parents or a vacation for your four-legged friend while you are traveling. You can ensure that our staff will take care of your fur child like they are our own. 
+	</p>
+
+	<p><iframe width="400" height="225" src="https://www.youtube.com/embed/ExvhGYhtvJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+</article> <!-- end main -->
+
+<aside> 
+
+<h3>Hours Of Operation</h3>
+
+	<p>Monday: 8 a.m - 6 p.m</p>
+	<p>Tuesday: 8 a.m. - 6 p.m.</p>
+	<p>Wednesday:  8 a.m. - 6 p.m.</p>
+	<p>Thursday:   8 a.m. - 6 p.m.</p>
+	<p>Friday: 8 a.m. - 7 p.m.</p>
+	<p>Saturday: 8 a.m. - 5 p.m.</p>
+	<p>Sunday: 11 a.m - 4 p.m.</p>
+
+</aside>   
+
+<footer> 
+
+	<p>Deppe K9 Care<br />
+	219  East Cherry Street &bull; Cook, NE 68329<br />
+	<a href = "https://facebook.com" target="_blank">Facebook</a> | <a href = "tel:+4024999999">Telephone</a> | <a href = "mailto:contactus@k9care.com">Email Us</a></p>
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+</div> <!-- end container -->
+
+</body>
+</html>
