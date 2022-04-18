@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Jen Deppe
+		Date: 03/28/2022
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<title>Deppe K9 Care</title>
+     <link href="css/styles.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+
+<a href="index.html"><img src="images/K9Carelogo.png" alt="K9 Care Logo"/></a>
+
+</header> 
+
+<div id = "wrapper">
+		 
+<nav> 
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "prices.html">Prices</a></li>
+	  <li><a href = "reviews.html">Reviews</a></li>
+	  <li><a href = "contactus.html">Contact Us</a></li>
+	</ul>
+</nav> 
+	 
+<article id = "main"> 
+
+<h1>Contact Us About Services</h1>
+
+<p>Please fill out information below inquiring about our services. We will contact you within one business day reguarding your inquire.</p>
+
+	 <form id="survey" action="http://www.example.com/services/survey" methond="post">
+		<fieldset id="custInfo">
+			<legend>Customer Information</legend>
+		</fieldset>	
+			
+		<div class="formRow">	
+			<label for="name">Name*</label>
+			<input name="custName" id="name" type="text" placeholder="first and last name" />
+		</div>
+
+		<div class="formRow">		
+			<label for="phone">Phone Number*</label>
+			<input name="custPhone" id="Phone" type="tel" placeholder="(nnn) nnn-nnnn"/>
+		</div>
+		
+		<div class="formRow">		
+			<label for="mail">E-mail*</label>
+			<input name="custEmail" id="mail" type="email" />
+		</div>	
+		
+		<div class="formRow">
+			<label for="service">Which service are you inquiring about?</label>
+			<input name="Service" id="Service" type="text" list="ServiceType" />
+			<datalist id="ServiceType">
+				<option value="Doggy Day Care" />
+				<option value="Dog Boarding" />
+				<option value="Both" />				
+			</datalist>
+		</div>
+		
+		<div class="formRow">
+			<label> Is this for Multiple dogs?</label>
+			<fieldset class="optGroup">
+			<label for="hYes"> Yes</label>
+				<input name="multidog" id="hYes" value="yes" type="radio" />
+				<label for="hNo"> No</label>
+				<input name="multidog" id="hNo" value="no" type="radio" />
+			</fieldset>
+		</div>
+		
+		<div id="buttons">
+			<input type="submit" value="Submit My Survey" />
+			<input type="reset" value="Cancel" />
+		</div>
+	</form>
+	
+	
+</article> <!-- end main -->
+
+<aside> 
+
+<h3>Hours Of Operation</h3>
+
+	<p>Monday: 8 a.m - 6 p.m</p>
+	<p>Tuesday: 8 a.m. - 6 p.m.</p>
+	<p>Wednesday:  8 a.m. - 6 p.m.</p>
+	<p>Thursday:   8 a.m. - 6 p.m.</p>
+	<p>Friday: 8 a.m. - 7 p.m.</p>
+	<p>Saturday: 8 a.m. - 5 p.m.</p>
+	<p>Sunday: 11 a.m - 4 p.m.</p>
+	
+	
+</aside>   
+
+<footer> 
+
+	<p>Deppe K9 Care<br />
+	219  East Cherry Street &bull; Cook, NE 68329<br />
+	<a href = "https://facebook.com" target="_blank">Facebook</a> | <a href = "tel:+4024999999">Telephone</a> | <a href = "mailto:contactus@k9care.com">Email Us</a></p>
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+</div> <!-- end container -->
+
+</body>
+</html>
